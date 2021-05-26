@@ -1,0 +1,9 @@
+.nav-text {
+  color: white
+}
+
+.xml-card {
+  overflow-x: scroll;
+  height: 30em;
+  overflow-y: scroll;
+}
