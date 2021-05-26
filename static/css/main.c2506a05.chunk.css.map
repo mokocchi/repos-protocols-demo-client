@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,UACE,UACF,CAEA,UACE,iBAAkB,CAClB,WAAY,CACZ,iBACF","file":"main.c2506a05.chunk.css","sourcesContent":[".nav-text {\n  color: white\n}\n\n.xml-card {\n  overflow-x: scroll;\n  height: 30em;\n  overflow-y: scroll;\n}"]}

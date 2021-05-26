@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/repos-protocols-demo-client/static/css/main.c2506a05.chunk.css",
+    "main.js": "/repos-protocols-demo-client/static/js/main.ffbaa43d.chunk.js",
+    "main.js.map": "/repos-protocols-demo-client/static/js/main.ffbaa43d.chunk.js.map",
+    "runtime-main.js": "/repos-protocols-demo-client/static/js/runtime-main.a5858859.js",
+    "runtime-main.js.map": "/repos-protocols-demo-client/static/js/runtime-main.a5858859.js.map",
+    "static/js/2.7562a084.chunk.js": "/repos-protocols-demo-client/static/js/2.7562a084.chunk.js",
+    "static/js/2.7562a084.chunk.js.map": "/repos-protocols-demo-client/static/js/2.7562a084.chunk.js.map",
+    "index.html": "/repos-protocols-demo-client/index.html",
+    "static/css/main.c2506a05.chunk.css.map": "/repos-protocols-demo-client/static/css/main.c2506a05.chunk.css.map",
+    "static/js/2.7562a084.chunk.js.LICENSE.txt": "/repos-protocols-demo-client/static/js/2.7562a084.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5858859.js",
+    "static/js/2.7562a084.chunk.js",
+    "static/css/main.c2506a05.chunk.css",
+    "static/js/main.ffbaa43d.chunk.js"
+  ]
+}
