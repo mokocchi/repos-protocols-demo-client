@@ -20,8 +20,12 @@ const parseRss = xml => {
             const itemTitle = item.getElementsByTagName("title")[0].textContent;
             const itemLink = item.getElementsByTagName("link")[0].textContent;
             const itemDescription = item.getElementsByTagName("description")[0].textContent;
-            const date = item.getElementsByTagNameNS("http://purl.org/dc/elements/1.1/", "date")[0].textContent;
-            const published = (new Date(date)).toLocaleString("es").split(" ")[0];
+            const dateItems  = item.getElementsByTagNameNS("http://purl.org/dc/elements/1.1/", "date");
+            let date;
+            if (dateItems.length > 0) {
+                date = dateItems[0].textContent;
+            }
+            const published = date ? (new Date(date)).toLocaleString("es").split(" ")[0] : "(no disponible)";
             return (<div>
                 <h5>{itemTitle} [<a href={itemLink}>Enlace</a>]</h5>
                 <ul>
