@@ -1,0 +1,27 @@
+# Jekyll configuration for GitHub Pages
+title: Demo de protocolos para repositorios digitales
+description: Repository protocols demo client
+baseurl: /repos-protocols-demo-client
+url: https://mokocchi.github.io
+
+# Build settings
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - .github
+  - node_modules
+  - asset-manifest.json
+  - package.json
+  - package-lock.json
+
+# Mark as safe
+safe: true
